@@ -12,8 +12,8 @@
             "environment": [],
             "externalConsole": false,
             "pipeTransport": {
-                "pipeCwd": "",
-                "pipeProgram": "${env:windir}\\System32\\wsl.exe",
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "C:\\Windows\\System32\\wsl.exe",
                 "pipeArgs": [],
                 "debuggerPath": "/usr/bin/gdb"
             },
